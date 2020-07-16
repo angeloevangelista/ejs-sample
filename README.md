@@ -5,7 +5,7 @@
 Para baixar você precisa "clonar" este projeto, para isto, 
 copie o link do repositório, como na imagem: 
 
-![Copiando link do repositório](.git/images/screenshot_01.png)
+![Copiando link do repositório](.github/images/screenshot_01.png)
 
 Com ele na sua area de transferência, abra uma janela do terminal,
 este de sua escolha, navegue até a sua pasta de desenvolvimento e 
