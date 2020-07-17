@@ -8,7 +8,11 @@ const port = process.env.PORT || 3000;
 const app = express();
 
 // definindo a porta de acesso
-app.listen(port, () => opn(`http://127.0.0.1:${port}`));
+app.listen(port, () => {
+  console.log(`Your app is running at http://127.0.0.1:${port} 🚀`);
+
+  opn(`http://127.0.0.1:${port}`)
+});
 
 app.set('view engine', 'ejs'); // definindo o eJs como de view, sla o nome askj 
 
